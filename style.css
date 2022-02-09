@@ -37,6 +37,20 @@
   padding: 5px;
 }
 
+.my-rect {
+  fill: blue;
+}
+.my-rect:hover {
+  fill: red;
+}
+.my-circ {
+  fill: yellow;
+}
+.my-circ:hover {
+  fill: purple;
+}
+
+
 h1 {
   font-size: 30px;
 }
