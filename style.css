@@ -32,6 +32,9 @@
   padding: 5px;
 }
 
+.interactive div {
+  align-content: center;
+}
 .my-rect {
   fill: blue;
 }
