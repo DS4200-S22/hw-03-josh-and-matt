@@ -34,20 +34,21 @@
 
 .interactive div {
   align-content: center;
+  display:  flex;
+  flex-flow: row wrap;
 }
 .my-rect {
-  fill: blue;
+  fill: skyblue;
 }
 .my-rect:hover {
-  fill: red;
+  fill: darkblue;
 }
 .my-circ {
-  fill: yellow;
+  fill: palegreen;
 }
 .my-circ:hover {
-  fill: purple;
+  fill: darkgreen;
 }
-
 
 h1 {
   font-size: 30px;
