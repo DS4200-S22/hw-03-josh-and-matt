@@ -14,25 +14,36 @@
       <div>
         <img src="img/bubble_and_pie_chart.png" alt="First gallery image" />
         <h2 class="description">
-          provide an explanation of the data type(s) shown by the chart and the marks and channels used. In your explanation, please include whether marks are used as items/nodes or links
+          Piecharts in themselves utilize two data types. One is the X categorical attribute. It represents each 'slice' in the pie. i.e a blue slice represents 'blueberries.'Its mark is areas. Its channel is color. Second is the y quantative attribute. Its mark is areas. The channel is tilt, where the larger the tilt the more means more representation in the pie dataset. 
+
+          Futhermore, compound bubble pie charts have 3 more additional attributes. Each pie is a quantative attribute. Its mark is areas. Its channel is area. The mangitude of the size of the pie is indicative of the relative quanity of each pie compared to the other pies. The x axis is a quantative attribute. Its channel is vertical position where the further right, the higher the quanity and vice versa. The y axis is a quantative attribute. Its channel is horizontal position where the further up, the higher the quanity and vice versa.
         </h2>
       </div>
       <div>
         <img src="img/bump_chart.png" alt="Second gallery image" />
         <h2 class="description">
-          provide an explanation of the data type(s) shown by the chart and the marks and channels used. In your explanation, please include whether marks are used as items/nodes or links
+          Bump charts explore rank over time. Each datapoint has a name, rank, and year. Name is a categorical attribute, in this case it is A,B,C,D. Its mark is areas/item. Its channel is color where each letter is associated with a particular color. i.e 'A' is blue, 'B' is red. Year is a ordered attribute: 2005 to 2015. Its mark is a conection link between a letter's rankings. Year's channel is position. The further to the right the older the year associated with the ranking. The further to the left the younger.  Rank is an ordinal attribute. In this chart, there are datapoints with varying ranges in 2015. However, in a typical chart, ranks should be an exclusive attribute. (i.e only one 1, one 2, etc or if there are ties there should be one less of the next rank) Rank's mark is a point. It's channel is position. The position relative to other marks display its rank. The higher up, the higher the rank. 
+
         </h2>
       </div>
       <div>
         <img src="img/mind_map.png" alt="Third gallery image" />
         <h2 class="description">
-          provide an explanation of the data type(s) shown by the chart and the marks and channels used. In your explanation, please include whether marks are used as items/nodes or links
+          Category is a categorical attribute. In this mind-map the only category is ['category'] but there may be multiple category groupings in the future. It's mark is an item/node. Its channel is both horizontal and vertical position.
+
+          Idea is a categorical attribute. In this mind-map the only category is ['idea']. As stated in the description, there are many ways to categorically represent an idea such as images, words, and parts of words. It's mark is an item/node. Its channel is both horizontal and vertical position.
+
+          Theme is a categorical attribute. In this mind-map the only category is ['theme']. It's mark is an item/node. Its channel is both horizontal and vertical position.
+
+          The lines connecting an idea to a category or category to a theme is a categorical attribute: [Theme, Category]. In a table it may be represented as 'connection hierarchy' where the associated value is the next hierarchial node. i.e the connection hierarchy for 'IDEA' is 'CATEGORY'. The mark is a connection. It's channel is horizontal and vertical position.
+
         </h2>
       </div>
       <div>
         <img src="img/stacked_bar_chart.png" alt="Fourth gallery image" />
         <h2 class="description">
-          provide an explanation of the data type(s) shown by the chart and the marks and channels used. In your explanation, please include whether marks are used as items/nodes or links
+         Name is a categorical attribute, in this case it is A,B,C,D. Its mark is lines. Its channel is horizontal position. A is the leftmost bar, then B is the second leftmost, and so on and so forth. The y axis is a quantatative attribute. It's mark is line. The higher up (longer) the bar is, the more it quantatatively represents. Its channel is vertical position. Each stack in the bar is a categorical attribute. In this case it is 4 colors, coral, red, dark-red, and blue. It's mark is lines. The longer the stacked bar the more it represents the overall named dataset. Its channel is color. Each color in the stack represents a different part of the stack and a different dataset.
+      
         </h2>
       </div>
     </section>
@@ -93,29 +104,27 @@
     </a>
   </li>
   <li>
-    <a href="url">
-      website "page name"
+    <a href="https://www.w3schools.com/css/default.asp">
+      w3schools "CSS Tutorial"
     </a>
   </li>
   <li>
-    <a href="url">
-      website "page name"
+   <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox">
+      css-tricks "A Complete Guide to Flexbox"
     </a>
   </li>
   <li>
-    <a href="url">
-      website "page name"
+    <a href="https://www.geeksforgeeks.org/dom-document-object-model/">
+      w3schools "DOM (Document Object Model)"
     </a>
   </li>
   <li>
-    <a href="url">
-      website "page name"
+    <a href="https://github.com/DS4200-S22/hw-03-josh-and-matt">
+      github
     </a>
   </li>
   <li>
-    <a href="url">
-      website "page name"
-    </a>
+    Northeastern University DS4200 Lecture 03,05
   </li>
 </div>
 </body>
