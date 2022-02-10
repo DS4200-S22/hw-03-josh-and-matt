@@ -10,15 +10,15 @@
 .grid section {
   display: flex;
   flex-flow: row wrap;
-  list-style: none;
   margin: 32px 0;
   width: 100%;
   height: auto;
+  justify-content: center;
 }
 
 .grid div {
   margin: 10px 10px;
-  flex-basis: calc(50% - 30px);
+  flex-basis: 400px;
   border-style: solid;
 }
 
@@ -33,9 +33,25 @@
 }
 
 .interactive div {
-  align-content: center;
-  display:  flex;
-  flex-flow: row wrap;
+
+}
+.outer_container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 32px 0px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.interactive svg {
+  height: 500px;
+  height: auto;
+}
+
+.container {
+  width: 15%;
+  height: 15%;
+  margin: 16px 16px;
 }
 .my-rect {
   fill: skyblue;
